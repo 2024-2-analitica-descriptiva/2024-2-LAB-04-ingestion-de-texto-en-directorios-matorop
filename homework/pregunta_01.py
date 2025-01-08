@@ -101,7 +101,7 @@ def pregunta_01():
                 for file in folders:
                     os.remove(file)
                 os.rmdir(output_directory)
-            output_directory = os.path.join("files\output")
+            output_directory = os.path.join("files/output")
             os.makedirs(output_directory, exist_ok=True)
 
         def save_csv(data, output_directory, filename):
